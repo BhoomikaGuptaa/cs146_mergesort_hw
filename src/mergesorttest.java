@@ -30,7 +30,7 @@ public class mergesorttest {
     }
 
     @Test
-    public void testCase4() {
+    public void testCase4() { // test merging when both the arrays contain some negative integers 
         int[] a = {-5, -1, 0};
         int[] b = {-3, 2};
         int[] expected = {-5, -3, -1, 0, 2};
@@ -38,7 +38,7 @@ public class mergesorttest {
     }
 
     @Test
-    public void testCase5() { // test merging when the second array is empty and the first array is not empty 
+    public void testCase5() { // test merging when both the arrays are empty  
         int[] a = {};
         int[] b = {};
         int[] expected = {};
